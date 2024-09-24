@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #3c008b, #31024477);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    font-family: "Albert Sans", sans-serif;
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 400px;
+}
+.pesquisa {
+    font-family: "Albert Sans", sans-serif;
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 250px;
+    position: absolute;
+    top: 30px;
+    right:800px;
+
+}
+.tabelaProdutos{
+    font-family: "Albert Sans", sans-serif;
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 370px;
+    position: absolute;
+    bottom: 500px;
+    right: 130px;
+
+}
+
+
+h1 {
+    font-family: "Albert Sans", sans-serif;
+    color: #3c008b;
+}
+
+h2 {
+    font-family: "Albert Sans", sans-serif;
+    color: #3c008b;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #3c008b;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3c008b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #3c008b;
+    color: white;
+}
