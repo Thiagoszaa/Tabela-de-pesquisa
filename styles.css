@@ -1,12 +1,9 @@
-body {
+  body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(to top, #3c008b, #31024477);
+    background: linear-gradient(135deg, #1c1c1c, #3c008b);
     color: #ffffff;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
 }
 
@@ -14,33 +11,43 @@ body {
     font-family: "Albert Sans", sans-serif;
     background-color: #000000;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
     width: 400px;
+    position: relative; /* Necessário para que right funcione */
+    left: 700px;
+    top: 300px;
+    transition: transform 0.2s ease;
+    
 }
 .pesquisa {
     font-family: "Albert Sans", sans-serif;
     background-color: #000000;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
     width: 250px;
-    position: absolute;
-    top: 30px;
-    right:800px;
+    position: relative;
+    bottom: 300px;
+    left:770px;
+    transition: transform 0.2s ease;
+    
 
 }
 .tabelaProdutos{
     font-family: "Albert Sans", sans-serif;
     background-color: #000000;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
     width: 370px;
-    position: absolute;
-    bottom: 500px;
-    right: 130px;
-
+    position: relative;
+    bottom: 450px;
+    left:  1300px;
+    transition: transform 0.2s ease;
+}
+.container:hover, .pesquisa:hover, .tabelaProdutos:hover {
+    transform: scale(1.05);
 }
 
 
@@ -101,3 +108,35 @@ th {
     background-color: #3c008b;
     color: white;
 }
+
+header {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+  nav {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+    color: #3c008b;
+    
+  }
+  .foto {
+    margin-right: 1100px;
+    
+  }
